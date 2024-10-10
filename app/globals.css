@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@keyframes fadeInOut {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.5;
+    }
+  }
+  
+  .animate-infinite {
+    animation: fadeInOut 1s infinite; /* Adjust the duration as needed */
+  }
+  
+  
+  
+
+
+
+
+
+
+
